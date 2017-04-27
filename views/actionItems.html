@@ -1,8 +1,8 @@
-<div class="container"> <br/>
+<div class="container" ng-controller="pmrCtrl"> <br/>
     <div class="row">
         <div class="col-lg-7">
             <br/>
-            <form class="form-horizontal" ng-submit="onSaveAction(action)" ng-controller="pmrCtrl">
+            <form class="form-horizontal" ng-submit="onSaveAction(action)" >
                 <fieldset class="scheduler-border">
                     <legend class="scheduler-border">Action Items</legend>
                         <div class="form-group">
@@ -113,7 +113,7 @@
         </div>
     </div>
 
-</div>
+
 
 
 
@@ -124,7 +124,7 @@
     <div class="row">
         <div class="col-lg-7">
             <br/>
-            <form class="form-horizontal" ng-submit="onSubmitRisk(risk)" ng-controller="pmrCtrl">
+            <form class="form-horizontal" ng-submit="onSubmitRisk(risk)">
                 <fieldset class="scheduler-border">
                     <legend class="scheduler-border">Risks and Dependencies</legend>
 
@@ -186,7 +186,7 @@
     <div class="row">
         <div class="col-lg-7">
             <br/> <br/><br/>
-            <form class="form-horizontal" ng-submit="onSubmitHighlight(highlights)" ng-controller="pmrCtrl">
+            <form class="form-horizontal" ng-submit="onSubmitHighlight(highlights)">
                 <fieldset class="scheduler-border">
                     <legend class="scheduler-border">Project Highlights </legend>
 
@@ -255,7 +255,7 @@
     <div class="row">
         <div class="col-lg-7">
             <br/>
-            <form class="form-horizontal" ng-submit="onSubmitMS(milestone)" ng-controller="pmrCtrl">
+            <form class="form-horizontal" ng-submit="onSubmitMS(milestone)">
                 <fieldset class="scheduler-border">
                     <legend class="scheduler-border">Milestones and Targets</legend>
 
@@ -324,3 +324,4 @@
 	<div class="form-group col-sm-6"> </div>
 </div>
 <br><br>
+</div>
